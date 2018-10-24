@@ -28,19 +28,19 @@ Log in as the user to your system, and issue these commands to make sure your Li
 **Linux**
 
 
-`cd ~`
+``cd ~``
 
-`git clone https://github.com/nanomsg/nanomsg`
+``git clone https://github.com/nanomsg/nanomsg``
 
-`cd nanomsg`
+``cd nanomsg``
 
-`cmake . -DNN_TESTS=OFF -DNN_ENABLE_DOC=OFF`
+``cmake . -DNN_TESTS=OFF -DNN_ENABLE_DOC=OFF``
 
-`make -j2`
+``make -j2``
 
-`sudo make install`
+``sudo make install``
 
-`sudo ldconfig`
+``sudo ldconfig``
 
 
 This takes some time depending your internet connection. Let it run in the background.
@@ -48,17 +48,17 @@ Now it is time to install Komodo. Follow each line step by step and ignore the "
 
 **Installing Komodo**
 
-`cd ~`
+``cd ~``
 
-`git clone https://github.com/jl777/komodo`
+``git clone https://github.com/jl777/komodo``
 
-`cd komodo`
+``cd komodo``
 
-`git checkout beta`
+``git checkout beta``
 
-`./zcutil/fetch-params.sh -j8`  uses 8 threads - replace 8 with number of threads you want to use or `nproc` variable`
+``./zcutil/fetch-params.sh -j8``  uses 8 threads - replace 8 with number of threads you want to use or `nproc` variable`
 
-`./zcutil/build.sh -j$(nproc)`
+``./zcutil/build.sh -j$(nproc)``
 
 
 This can take some time.
@@ -66,10 +66,10 @@ This can take some time.
 
 Now you can start `KMDICE` daemon to sync with the network
 
-`cd ~`
+``cd ~``
 
-`cd komodo`
+``cd komodo``
 
-`./src/komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 &`
+``./src/komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 &``
 
 You might see some outputs in terminal where you started `KMDICE` daemon. 
