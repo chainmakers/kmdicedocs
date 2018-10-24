@@ -13,7 +13,7 @@ Here we will show you to get KMDICE installed and ready to be played.
    :maxdepth: 1
    :caption: Install
    
-  kmdinstallguide.rst
+  komodoinstallguide.rst
 
 
 
