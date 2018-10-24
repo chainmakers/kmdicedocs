@@ -13,9 +13,7 @@ Here we will show you to get KMDICE installed and ready to be played.
    :maxdepth: 1
    :caption: Install
    
-   To install KMDICE you first need to have Komodo installed. Here is a guide on how to install Komodo Platform in most OS:
-   Komodo Install Guide <https://github.com/KomodoPlatform/komodo/wiki/Installing-Komodo-Manually/>
-   home-komodo manual install
+  kmdinstallguide.rst
 
 
 
