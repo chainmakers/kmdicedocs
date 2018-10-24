@@ -12,9 +12,10 @@ Here we will show you to get KMDICE installed and ready to be played.
 .. toctree::
    :maxdepth: 1
    :caption: Install
-   
-   komodoinstallguide.rst
+  
    Komodo install guide
+   komodoinstallguide.rst
+   
 
 
 Indices and tables
