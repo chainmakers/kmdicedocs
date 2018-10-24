@@ -13,8 +13,8 @@ Here we will show you to get KMDICE installed and ready to be played.
    :maxdepth: 1
    :caption: Install
    
- 	komodoinstallguide.rst
-   Komodo Linux Install Guide
+ 	source/komodoinstallguide.rst
+   
 
 
 Indices and tables
