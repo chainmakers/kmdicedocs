@@ -1,6 +1,5 @@
-For OSx instructions: https://github.com/KomodoPlatform/komodo/wiki/Installing-Komodo-Manually#installing-komodo-on-osx
 
-Installing Komodo on OSX
+Installing KMDICE on OSX
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Requirements**
