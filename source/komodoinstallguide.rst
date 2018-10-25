@@ -1,4 +1,4 @@
-**Installing Komodo on Ubuntu/Debian**
+**Installing KMDICE on Ubuntu/Debian**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Requirements**
