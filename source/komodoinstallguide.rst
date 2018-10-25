@@ -15,8 +15,10 @@ Currently, you will need:
 Log in as the user to your system, and issue these commands to make sure your Linux machine is up to date.
 
 .. code-block:: shell
+
 sudo apt-get update
 sudo apt-get upgrade  (and say Y when it wants to upgrade stuff)
+
 
 **Install the dependency packages:**
 
