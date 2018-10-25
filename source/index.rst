@@ -15,7 +15,8 @@ Here we will show you to get KMDICE installed and ready to be played.
   
    Komodo install guide
    komodoinstallguide.rst
-   
+   OSX install guide
+   osxinstallguide.rst
 
 
 Indices and tables
