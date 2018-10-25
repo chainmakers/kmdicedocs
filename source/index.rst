@@ -7,7 +7,7 @@ Welcome to KMDICE docs's documentation!
 =======================================
 
 
-Here we will show you to get KMDICE installed and ready to be played.
+Here we will show how to get KMDICE installed and ready to be played.
 
 .. toctree::
    :maxdepth: 1
