@@ -30,7 +30,7 @@ Log in as the user to your system, and issue these commands to make sure your Li
 
 **Linux**
 
-..code-block:: shel
+.. code-block:: shell
 
         cd ~
         git clone https://github.com/nanomsg/nanomsg
