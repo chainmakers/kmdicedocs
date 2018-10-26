@@ -1,4 +1,4 @@
-Installing Komodo on Windows 64-bit systems
+Installing KMDICE on Windows 64-bit systems
 ===========================================
 
 PLEASE FOLLOW THE VIDEO TUTORIAL: https://youtu.be/gfZZy8b222E
