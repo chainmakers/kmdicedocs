@@ -6,27 +6,24 @@ Installing KMDICE on OSX
 
 Packages are installed through homebrew, make sure to install it:
  
-`
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-`
+.. code-block:: shell
+
+        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 
 Now install the dependency packages:
 
-`brew tap discoteq/discoteq; brew install flock`
+.. code-block:: shell
 
-`brew install autoconf autogen automake`
+         brew tap discoteq/discoteq; brew install flock
+         brew install autoconf autogen automake
+         brew install gcc@6
+         brew install binutils
+         brew install protobuf
+         brew install coreutils
+         brew install wget
+         brew install nanomsg
 
-`brew install gcc@6`
-
-`brew install binutils`
-
-`brew install protobuf`
-
-`brew install coreutils`
-
-`brew install wget`
-
-`brew install nanomsg`
 
 or
 
