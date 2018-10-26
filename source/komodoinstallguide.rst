@@ -50,11 +50,11 @@ Now you can start `KMDICE` daemon to sync with the network
         cd komodo
         ./src/komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 &
 
-You might see some outputs in terminal where you started `KMDICE` daemon. 
+You might see some outputs in terminal where you started KMDICE daemon. 
 
 **Playing KMDICE**
 
-To play KMDICE you need to run the daemon with the ```-pubkey=``` parameter. 
+To play KMDICE you need to run the daemon with the ``-pubkey=`` parameter. 
 
 First, you need to get a new address
 
@@ -69,7 +69,7 @@ Second you need to validate the address to get the pubkey
 	./komodo-cli -ac_name=KMDICE validateaddress <ADDRESS>
 
 
-And lastly, after you copy the pubkey from the output of ```validateaddress``` you can now stop the daemon and restart it with the ```-pubkey=``` parameter.
+And lastly, after you copy the pubkey from the output of ``validateaddress`` you can now stop the daemon and restart it with the ```-pubkey=``` parameter.
 
 
 .. code-block:: shell
@@ -78,4 +78,4 @@ And lastly, after you copy the pubkey from the output of ```validateaddress``` y
 	./src/komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -pubkey=<YOUR PUBKEY> &
 
 
-Now you will be able to play the game using ```dicebet```.
+Now you will be able to play the game using ``dicebet``.
