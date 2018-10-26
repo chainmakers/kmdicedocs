@@ -52,7 +52,7 @@ Now you can start `KMDICE` daemon to sync with the network
 
 You might see some outputs in terminal where you started KMDICE daemon. 
 
-**Playing KMDICE**
+**Activating CC in  KMDICE**
 
 To play KMDICE you need to run the daemon with the ``-pubkey=`` parameter. 
 
