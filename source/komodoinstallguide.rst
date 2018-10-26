@@ -30,20 +30,15 @@ Log in as the user to your system, and issue these commands to make sure your Li
 
 **Linux**
 
+..code-block:: shel
 
-``cd ~``
-
-``git clone https://github.com/nanomsg/nanomsg``
-
-``cd nanomsg``
-
-``cmake . -DNN_TESTS=OFF -DNN_ENABLE_DOC=OFF``
-
-``make -j2``
-
-``sudo make install``
-
-``sudo ldconfig``
+        cd ~
+        git clone https://github.com/nanomsg/nanomsg
+        cd nanomsg
+        cmake . -DNN_TESTS=OFF -DNN_ENABLE_DOC=OFF
+        make -j2
+        sudo make install
+        sudo ldconfig
 
 
 This takes some time depending your internet connection. Let it run in the background.
