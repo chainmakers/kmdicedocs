@@ -20,6 +20,17 @@ Here we will show how to get KMDICE installed and ready to be played.
    Windows install guide
    windowsinstallguide.rst
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Play
+
+   Play KMDICE
+   playguide.rst
+
+
+
+
 Indices and tables
 ==================
 
