@@ -12,15 +12,15 @@ How to start KMDICE chain and bet using CLI?
 
 There are 3 ways you can get KMDICE coins now.
 
-1. Mine KMDICE
+1. `Mine KMDICE <https://pool.forkwitch.com/stats>`_
 
-2. Atomic Swap using BarterDEX
+2. Atomic Swap using `BarterDEX <https://github.com/KomodoPlatform/BarterDEX/releases>`_
 
 3. OTC trades in `Komodo Discord <https://komodoplatform.com/discord>`_
 
 **Get `pubkey` value**
 
-We need to get `pubkey` value for the smartaddress you are going to use the KMDICE wallet with. `pubkey` is needed for CC use. If you already know the pubkey of the address you are going to use, please skip to the [next section](start-kmdice-with-pubkey).
+We need to get ``pubkey`` value for the smartaddress you are going to use the KMDICE wallet with. `pubkey` is needed for CC use. If you already know the pubkey of the address you are going to use, please skip to the [next section](start-kmdice-with-pubkey).
 
 **Step 1**
 
@@ -76,9 +76,9 @@ Stop the KMDICE chain with the following command. (Make sure to use this command
 
 
 
-**Start KMDICE with `pubkey` to Use Dice Game**
+**Start KMDICE with ``pubkey`` to Use Dice Game**
 
-Use the following command to start KMDICE with `pubkey` for address you are going to use. If you don't have a pubkey, please follow the earlier steps.
+Use the following command to start KMDICE with ``pubkey`` for address you are going to use. If you don't have a pubkey, please follow the earlier steps.
 
 .. code-block:: shell
 
@@ -130,7 +130,7 @@ Now, you have all info needed to place bet. Make sure that you have KMDICE funds
 
 **Place a Bet**
 
-This is a 2 step process using CLI. First you need to use the `dicebet` command with required info. That will create a raw transaction HEX value which we need to brodcast to the network using `sendrawtransaction` API. This is the example command `dicebet name fundingtxid amount odds`
+This is a 2 step process using CLI. First you need to use the ``dicebet`` command with required info. That will create a raw transaction HEX value which we need to brodcast to the network using ``sendrawtransaction`` API. This is the example command ``dicebet name fundingtxid amount odds``
 
 .. code-block:: shell
 
