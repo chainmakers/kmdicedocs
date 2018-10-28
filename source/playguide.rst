@@ -16,7 +16,7 @@ There are 3 ways you can get KMDICE coins now.
 
 2. Atomic Swap using BarterDEX
 
-3. OTC trades in [Komodo Discord](https://komodoplatform.com/discord)
+3. OTC trades in `Komodo Discord <https://komodoplatform.com/discord>`_
 
 **Get `pubkey` value**
 
