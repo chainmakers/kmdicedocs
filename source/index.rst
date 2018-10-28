@@ -29,11 +29,3 @@ Here we will show how to get KMDICE installed and ready to be played.
    playguide.rst
 
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
