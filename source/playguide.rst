@@ -28,7 +28,7 @@ Start the chain with the following command and wait for the daemon to sync.
 
 .. code-block:: shell
 
-	./komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=144.76.217.232 &
+	./komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 &
 
 
 **Step 2**
@@ -82,7 +82,7 @@ Use the following command to start KMDICE with ``pubkey`` for address you are go
 
 .. code-block:: shell
 
-	./komodod -ac_name=KMDICE -pubkey=02f183a71e93dfa7672ce7212187e45eabcf4077fed575348504b20295751ab1a2 -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=144.76.217.232 &
+	./komodod -ac_name=KMDICE -pubkey=02f183a71e93dfa7672ce7212187e45eabcf4077fed575348504b20295751ab1a2 -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 &
 
 
 **How to bet?**
