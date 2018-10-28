@@ -8,5 +8,5 @@ First step to get KMDICE running natively in Agama is to download latest Agama r
 
 After downloading Agama for your preferred OS, run it and select ``Activate Coin``:
 
-..image:: http://imgur.com/zV826Iml.png
+.. image:: http://imgur.com/zV826Iml.png
 	:alt: Agama-login 
