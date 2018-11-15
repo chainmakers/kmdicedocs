@@ -34,7 +34,7 @@ Log in as the user to your system, and issue these commands to make sure your Li
         cd ~
         git clone https://github.com/jl777/komodo
         cd komodo
-        git checkout beta
+        git checkout jl777
         ./zcutil/fetch-params.sh -j8``  uses 8 threads - replace 8 with number of threads you want to use or `nproc` variable
         ./zcutil/build.sh -j$(nproc)
 
