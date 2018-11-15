@@ -4,7 +4,7 @@ How to start KMDICE chain and bet using CLI?
 
 **Requirements:**
 
-1. Latest KMDICE install
+1. Latest KMDICE install in dev branch
 
 2. Funds
 
