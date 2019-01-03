@@ -13,7 +13,7 @@ After downloading Agama for your preferred OS, run it and select ``Activate Coin
 
 On the dialog box that pups up, start typing KMDICE and then select the ``Native Mode`` option, then press ``Activate Coin``: 
 
-.. image:: http://imgur.com/ISdUo29l.png
+.. image:: http://i.imgur.com/bX8NYuD.png
 	:alt: Agama-select-coin
 
 Once the chain syncs completely you can jump to ``Receive`` screen in the wallet and look for the address that has KMDICE (if you dont, then deposit some KMDICE to an address) and then select ``copy pub key``:
