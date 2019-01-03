@@ -19,6 +19,8 @@ Here we will show how to get KMDICE installed and ready to be played.
    osxinstallguide.rst
    Windows install guide
    windowsinstallguide.rst
+   Agama Wallet
+   agamawallet.rst
 
 
 .. toctree::
