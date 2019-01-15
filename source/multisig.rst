@@ -22,7 +22,7 @@ After you activate your favorite coin in lite mode, go to ``Tools`` section and 
 	:alt: get-pubkey
 
 In ``Generate multisig address`` you will select how many total ``pubkeys`` you will want as signers and how many signers will be needed to make a transaction.
-For example if you selec 2 of 3, you will have 3 total ``pubkeys`` that can signed but at least 2 will be needed to make a transaction. Also select which coin you will be making this address for. Finally, list all 3 (or total of keys needed) in the text box.
+For example if you selec 2 of 3, you will have 3 total ``pubkeys`` that can sign but at least 2 will be needed to make a transaction. Also select which coin you will be making this address for. Finally, list all 3 (or total of keys needed) in the text box.
 
 .. image:: http://i.imgur.com/wqXrzTh.png
 	:alt: generate-multisig
