@@ -29,7 +29,7 @@ For example if you selec 2 of 3, you will have 3 total ``pubkeys`` that can sign
 
 Once you generate the multisig address you will get several outputs:
 
-**Address**: `bQE41eaXq2eC2jWtM95XqWe8TRNF8uVjv5`
+**Address**: ```bQE41eaXq2eC2jWtM95XqWe8TRNF8uVjv5```
 
 **Redeem script**: `522102c28ba9fc9c7575d0148d731bf9c9b8e4df5bc38588f5944c773c8a9ecfd1f4782102a02f2b7904381bcc0b53a701ed69a3c68a7f4ee5c35dbedca329ca6c05203b202102cbbdfa609054a88515359e91b5ebcb45fade232c104365ff3459cee74abcbee853ae`
 
