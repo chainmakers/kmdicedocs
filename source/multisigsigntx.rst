@@ -11,36 +11,51 @@ After downloading Agama for your preferred OS, run it and select ``Activate Coin
 .. image:: http://i.imgur.com/Bga3lso.png
 	:alt: Agama-login 
 
-After you activate your favorite coin in lite mode, go to ``Tools`` section and select ``Multi signature transaction``
+After you activate your favorite coin in lite mode using the ``private key (WIF or seed)``, go to ``Tools`` section and select ``Multi signature transaction``
 
 .. image:: http://i.imgur.com/8gtFoI2.png
 	:alt: Agama-sign-multisig
   
-**IMPORTANT**: A multisig address is a special address that will require different people to sign each transaction with their own private keys. To create a multisig transaction you will need all your peers to sign the transaction before it gets broadcasted. To sign the transaction, each peer will need the ``private key (WIF)`` of the ``pubkey`` that used to create the multisig address which can be found here:
+**IMPORTANT**: A multisig address is a special address that will require different people to sign each transaction with their own ``private keys (WIF or seed)``. To create a multisig transaction you will need all your peers to sign the transaction before it gets broadcasted. To sign the transaction, each peer will need the ``private key (WIF or seed)`` of the ``pubkey`` that was used to create the multisig address which can be found here if you use native mode, in lite mode the seed will be the same you logged in with:
 
-..image:: http://i.imgur.com/jkxxl4U.png
+.. image:: http://i.imgur.com/jkxxl4U.png
   :alt: Agama-copy-wif
 
-In ``Multi signature transaction`` you will select the coin used for the multisig address, input the multisig address ``redeem script``, the ``private key`` of the signer's address and the multisig address funds will move from.
+In ``Multi signature transaction`` if you are the person creating the transaction you will select the coin used for the multisig address, then input the multisig address ``complete script``, the ``private key (WIF or seed)`` of the signer's address and click the ``Get balance`` button:
 
-.. image:: http://i.imgur.com/mxEo26V.png
+.. image:: http://i.imgur.com/cET6XTY.png
 	:alt: generate-multisig
 
-Once you generate the multisig address you will get several outputs:
+Once you press the ``Get balance`` button, get the address and verify it is indeed the correct multisig address you can proceed to set the address where you will send funds to and the quantity you want to send: 
 
-**Address**: ``bQE41eaXq2eC2jWtM95XqWe8TRNF8uVjv5``
+.. image:: http://i.imgur.com/mkgYEhH.png
+	:alt: create-tx
 
-**Redeem script**: ``522102c28ba9fc9c7575d0148d731bf9c9b8e4df5bc38588f5944c773c8a9ecfd1f4782102a02f2b7904381bcc0b53a701ed69a3c68a7f4ee5c35dbedca329ca6c05203b202102cbbdfa609054a88515359e91b5ebcb45fade232c104365ff3459cee74abcbee853ae``
+The final output will be need to be copied and shared with other signers who need to sign the transaction too:
 
-**Script pub key**: ``a9147e1adc17cf2c33f516b222b83eb4f8f53e088a0887``
-
-**and finally the complete script you will need to use for future transactions**:
-
-``{"redeemScript":"522102c28ba9fc9c7575d0148d731bf9c9b8e4df5bc38588f5944c773c8a9ecfd1f4782102a02f2b7904381bcc0b53a701ed69a3c68a7f4ee5c35dbedca329ca6c05203b202102cbbdfa609054a88515359e91b5ebcb45fade232c104365ff3459cee74abcbee853ae","scriptPubKey":"a9147e1adc17cf2c33f516b222b83eb4f8f53e088a0887","nOfN":"2-3","messageSecret":"438e24da3db1407e040d86ab8462750e9125448994909d29407937931c076d53","messageCID":"040d86ab8462750e438e24da3db1407e","pubKeys":["02c28ba9fc9c7575d0148d731bf9c9b8e4df5bc38588f5944c773c8a9ecfd1f478","02a02f2b7904381bcc0b53a701ed69a3c68a7f4ee5c35dbedca329ca6c05203b20","02cbbdfa609054a88515359e91b5ebcb45fade232c104365ff3459cee74abcbee8"]}``
+.. image:: http://i.imgur.com/O47Qh5k.png
+	:alt: output-tx
 
 
-**IMPORTANT**: **Store this information as well as possible, you can distribute it between your peer signers so that each one can store this information. This will be vital in the capability of moving funds from this address.**
+Now with this output the next signer will need to do a similar process, but this time the ``I want to create a transaction`` button off. 
 
-Now you have a multisig address with no funds in it. Please go to ``Multi-signature transaction`` section to be able to send from the multisig address.
+.. image:: http://i.imgur.com/YffNRdM.png
+	:alt: toogle-on
+
+.. image:: http://i.imgur.com/sg82YbS.png
+	;alt: toggle-off
+
+
+The subsequent signers will just need to set the ``complete script`` of the multisig address, the output of the first signer and their ``privete key (WIF or seed)``:
+
+.. image:: http://i.imgur.com/7IQj5SH.png
+	:alt: second-signer
+
+once you press ``verify transaction`` an option to send the transaction will show and you will be able to send the transaction IF all required signatures are done. If any other signature is required then this process will need to be repeated by the number of signers needed.
+
+
+
+
+
 
 
