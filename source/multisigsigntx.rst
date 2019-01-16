@@ -37,7 +37,7 @@ The final output will be need to be copied and shared with other signers who nee
 	:alt: output-tx
 
 
-Now with this output the next signer will need to do a similar process, but this time the ``I want to create a transaction`` button off. 
+Now with this output the next signer will need to do a similar process, but this time the ``I want to create a transaction`` button toggled off. 
 
 .. image:: http://i.imgur.com/YffNRdM.png
 	:alt: toogle-on
