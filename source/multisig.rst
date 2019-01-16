@@ -1,5 +1,5 @@
-Generate a multisig adress using Agama
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Generate a multisig address using Agama
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First step to generate a multisig address in Agama is to download latest Agama release:
 
